@@ -4,7 +4,7 @@ import ROOT
 def main():
     # 1. Configuration
     file_name = "gaussian_data.root"
-    output_plot_name = "gaussian_fit_results"  # Will save as .pdf and .png
+    output_plot_name = "gaussian_fit_results"
     num_events = 10000
     mean_gen = 5.0  # Generated mean
     sigma_gen = 1.5  # Generated standard deviation

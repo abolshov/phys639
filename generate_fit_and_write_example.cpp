@@ -85,7 +85,7 @@ void generate_fit_and_save()
     hist->Draw("EP");
 
     // Add custom TPaveText to show results on the canvas
-    TPaveText* pave = new TPaveText(0.15, 0.70, 0.40, 0.85, "NDC");
+    std::unique_ptr<TPaveText> pave = std::make_unique<TPaveText>(0.15, 0.70, 0.40, 0.85, "NDC");
     pave->SetBorderSize(1);
     pave->SetLineColor(kGray);
     pave->SetFillColor(0);
