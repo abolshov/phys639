@@ -1,0 +1,14 @@
+name: phys639
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - root
+  - uproot
+  - awkward
+  - numpy>=1.24,<2.2
+  - scipy
+  - iminuit
+  - tensorflow
+  - matplotlib
+  - jupyterlab
