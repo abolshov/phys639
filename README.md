@@ -10,11 +10,7 @@ We use **micromamba** (a fast, lightweight alternative to conda/mamba) for envir
 
 ## 1. Install Micromamba
 
-Choose the instructions for your Operating System:
-
-### Option A: Linux & macOS (Quick Install Script)
-Run the following command in your terminal. This downloads the official installer, configures micromamba, and initializes your shell:
-
+Run the following command in your terminal. 
 ```bash
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh)
 ```
@@ -25,7 +21,6 @@ Run the following command in your terminal. This downloads the official installe
 source ~/.bashrc
 ```
 for linux or
-## 2. Restart/reload shell
 ```bash
 source ~/.zshrc
 ```
@@ -54,10 +49,10 @@ import iminuit
 import tensorflow as tf
 import matplotlib
 
-print('\n🎉 SUCCESS: All packages imported successfully!')
+print('\nSUCCESS: All packages imported successfully!')
 print(f' - NumPy version: {np.__version__} (Should be < 2.2)')
 print(f' - ROOT version: {ROOT.__version__}')
 print(f' - TensorFlow version: {tf.__version__}')
 "
 ```
-If want to swithc to another environment, run `micromamba deactivate` and activate another environment.
+If want to switch to another environment, run `micromamba deactivate` and activate another environment.
