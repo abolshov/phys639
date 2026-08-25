@@ -3,12 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - root
+  - root=6.34
+  - tensorflow=2.18
   - uproot
   - awkward
-  - numpy>=1.24,<2.2
+  - numpy
   - scipy
   - iminuit
-  - tensorflow
   - matplotlib
   - jupyterlab
